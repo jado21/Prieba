@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Invert Mentor</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #000;
+    }
+
+    /* Barra superior */
+    .navbar {
+      background-color: #f08080;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: black;
+    }
+
+    .navbar .left {
+      font-weight: bold;
+    }
+
+    .navbar .right a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: black;
+      font-weight: 500;
+    }
+
+    .user-info {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+      border-bottom: 2px solid red;
+      align-items: center;
+    }
+
+    .user-info span {
+      display: flex;
+      align-items: center;
+    }
+
+    .user-info img {
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+    }
+
+    .main-image {
+      width: 90%;
+      height: 200px;
+      background-color: #ddd;
+      margin: 20px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .empresas {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    .empresas button {
+      padding: 10px 20px;
+      border-radius: 20px;
+      border: none;
+      background-color: #eee;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .acciones {
+      text-align: center;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+    .funciones {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+      flex-wrap: wrap;
+    }
+
+    .funciones button {
+      margin: 10px;
+      padding: 10px;
+      width: 180px;
+      background-color: #ddd;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Barra de navegación -->
+  <div class="navbar">
+    <div class="left">INVERT MENTOR</div>
+    <div class="right">
+      <a href="#">Inicio</a>
+      <a href="#">¿Quiénes somos?</a>
+      <a href="#">Más información</a>
+    </div>
+  </div>
+
+  <!-- Info de usuario -->
+  <div class="user-info">
+    <span><img src="https://img.icons8.com/ios-filled/20/user.png"/> Nombre</span>
+    <span>Capital <b>$</b></span>
+  </div>
+
+  <!-- Imagen central -->
+  <div class="main-image">
+    Imagen representativa de la bolsa de valores
+  </div>
+
+  <!-- Empresas -->
+  <div class="empresas">
+    <button>IBM</button>
+    <button>TESLA</button>
+    <button>NVIDIA</button>
+    <button>OKLO</button>
+    <button>AMAZON</button>
+  </div>
+
+  <!-- Acciones -->
+  <div class="acciones">¿QUÉ PUEDES HACER?</div>
+  <div class="funciones">
+    <button>Visualizar precios en tiempo real</button>
+    <button>Analizar noticias financieras</button>
+    <button>Predecir precios con LSTM</button>
+    <button>Recomendar compra/venta</button>
+    <button>Mostrar dashboards interactivos</button>
+  </div>
+
+</body>
+</html>
